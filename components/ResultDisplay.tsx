@@ -44,7 +44,7 @@ export const ResultDisplay: React.FC<ResultDisplayProps> = ({ resultImage, isLoa
             <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md">
               <a
                 href={resultImage}
-                download="trufit-try-on.png"
+                download="trymeup-try-on.png"
                 className="flex-1 bg-secondary text-primary font-bold py-3 px-6 rounded-lg shadow-md hover:bg-opacity-90 transition-all duration-300 text-center flex items-center justify-center"
               >
                 <i className="fa-solid fa-download mr-2"></i>
@@ -64,6 +64,10 @@ export const ResultDisplay: React.FC<ResultDisplayProps> = ({ resultImage, isLoa
                 <i className="fa-solid fa-retweet mr-2"></i>
                 Try Another
               </button>
+            </div>
+            
+            <div className="mt-6 text-center text-sm text-secondary/70 max-w-lg px-4 py-2 bg-black/20 rounded-lg">
+                <p><i className="fa-solid fa-triangle-exclamation mr-2 text-yellow-500"></i><strong>Note:</strong> This app is made with AI. This is not real, and there’s no guarantee you’ll look exactly the same in real life.</p>
             </div>
           </div>
         )}

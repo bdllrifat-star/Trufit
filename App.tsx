@@ -108,7 +108,7 @@ const App: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-8">
           <h1 className="text-4xl md:text-5xl font-bold text-secondary">
-            TruFit
+            TryMeUp
           </h1>
           <p className="mt-2 text-lg text-secondary/80">
             Try before you buy — in seconds.
